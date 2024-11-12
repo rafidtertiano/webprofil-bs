@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Website Sederhana</title>
+    <!-- Awal Library BS5 -->
+    
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Akhir Library BS5 -->
+</head>
+
+<body>
+        <div class="container">
+    
+            <div class="container mt-3">
+                <div class="mt-2 p-5 text-white rounded bg-dark">
+                    <h1>Rafid Tertiano Ramadhan</h1>
+                    <p>Fullstack Engineer, Web Developer, and Full-Time Streamer</p>
+                </div>
+            </div>
+
+        <nav class="navbar mt-2 navbar-expand-sm bg-dark navbar-dark justify-content-center">
+            <ul class="navbar-nav">
+           
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="profil.html">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="galeri.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="kontak.html">Contact</a>
+              </li>
+              
+            </ul>
+          </nav>
+    </header>
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel" style="height: 30%; width: 30%;">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+  
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://media.discordapp.net/attachments/1185947117248847982/1190971620555247689/IMG_20231217_124531_066.jpg?ex=6729f9c1&is=6728a841&hm=119eb80f0c254c8e13d03b2270901747d8b856d9c008123cad84f03e61ac361e&=&format=webp&width=503&height=670" alt="Los Angeles" class="d-flex w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn.discordapp.com/attachments/1185947117248847982/1185950419688632461/Deal_Or_No_deal.jpg?ex=672a2a65&is=6728d8e5&hm=5c62a9d88ed38a8678faac61d442e07b022c7cd86f481246fadc28a029b9e31c&" alt="Chicago" class="d-flex w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn.discordapp.com/attachments/1185947117248847982/1231572121302339676/IMG_20240421_163121.jpg?ex=672a05eb&is=6728b46b&hm=1b5eb8fd74d6aa95bf73cd25c8b632e3a7f86022dc9a4ed6782a23c31d8db4e8&" alt="New York" class="d-flex w-100">
+      </div>
+    </div>
+  
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+    <!-- <section id="galeri">
+        <h2>Galeri Foto</h2>
+        <p>Berikut adalah beberapa foto atau karya saya.</p>
+        <div class="gallery">
+            <a href="https://media.discordapp.net/attachments/1185947117248847982/1190971620555247689/IMG_20231217_124531_066.jpg?ex=6729f9c1&is=6728a841&hm=119eb80f0c254c8e13d03b2270901747d8b856d9c008123cad84f03e61ac361e&=&format=webp&width=503&height=670" target="_blank">
+                <img src="https://media.discordapp.net/attachments/1185947117248847982/1190971620555247689/IMG_20231217_124531_066.jpg?ex=6729f9c1&is=6728a841&hm=119eb80f0c254c8e13d03b2270901747d8b856d9c008123cad84f03e61ac361e&=&format=webp&width=503&height=670" alt="Gambar 1">
+            </a>
+            <a href="https://cdn.discordapp.com/attachments/1185947117248847982/1185950419688632461/Deal_Or_No_deal.jpg?ex=672a2a65&is=6728d8e5&hm=5c62a9d88ed38a8678faac61d442e07b022c7cd86f481246fadc28a029b9e31c&" target="_blank">
+                <img src="https://cdn.discordapp.com/attachments/1185947117248847982/1185950419688632461/Deal_Or_No_deal.jpg?ex=672a2a65&is=6728d8e5&hm=5c62a9d88ed38a8678faac61d442e07b022c7cd86f481246fadc28a029b9e31c&" alt="Gambar 2">
+            </a>
+            <a href="https://cdn.discordapp.com/attachments/1185947117248847982/1231572121302339676/IMG_20240421_163121.jpg?ex=672a05eb&is=6728b46b&hm=1b5eb8fd74d6aa95bf73cd25c8b632e3a7f86022dc9a4ed6782a23c31d8db4e8&" target="_blank">
+                <img src="https://cdn.discordapp.com/attachments/1185947117248847982/1231572121302339676/IMG_20240421_163121.jpg?ex=672a05eb&is=6728b46b&hm=1b5eb8fd74d6aa95bf73cd25c8b632e3a7f86022dc9a4ed6782a23c31d8db4e8&" alt="Gambar 3">
+            </a>
+        </div>
+    </section>
+
+    <section id="video">
+    <h2>Galeri Video</h2>
+    <p>Berikut adalah beberapa video dari kanal YouTube saya, Kainoto.</p>
+        <div class="video">
+            <a href="https://youtu.be/5HECliD15sM?si=bwXb7RL6mG02Ggy_" target="_blank">
+            <img src="https://img.youtube.com/vi/5HECliD15sM/0.jpg" alt="Video Thumbnail" style="width: 200px; height: auto;">
+        </a>
+         </div> -->
+    </section>
+    <footer>
+        <p>&copy; 2024 Rafid Tertiano. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
