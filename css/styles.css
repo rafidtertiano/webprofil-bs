@@ -34,9 +34,10 @@ body {
   .jumbotron p{
     margin: 5px;
   }
+
   .jumbotron1 {
     position: relative;
-      background-image: url(banner-discord.gif);
+      background-image: url(../assets/banner-discord.gif);
       background-size: cover;
     
   }
