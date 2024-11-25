@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.autoSave": "onWindowChange"
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch Chrome",
+				"request": "launch",
+				"type": "chrome",
+				"url": "file://${file}", // Open the active HTML file
+				"webRoot": "${workspaceFolder}"
+			}
+		]
+	}
+}
